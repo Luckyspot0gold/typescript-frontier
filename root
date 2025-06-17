@@ -1,0 +1,5 @@
+# Run these commands in your project root:
+git rm -cached -r.  # Reset tracking
+git reset HEAD --hard  # Wipe local changes
+git pull origin main   # Sync with GitHub
+rm -rf git/index.lock # Remove lockfiles
